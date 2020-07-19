@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: #F94040 solid 10px;
+}

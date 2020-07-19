@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url('./image/background.jpg') no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.container {
+    display: flex;
+    background-color: #f2f2f2;
+    height: 75%;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    border: #F94040 solid 10px;
+    box-shadow: 4px 2px 15px rgba(0,0,0, 0.5);
+}
+
+.panelItems {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+#cPanel {
+    border-left: #F94040 solid;
+    border-right: #F94040 solid;
+    border-width: 10px;
+}
+
+.dice {
+    height: 15vh;
+    box-shadow: 4px 2px 15px rgba(0,0,0, 0.2);
+    margin-top: 10%;
+}
+
+.btn {
+    border-style: none;
+    padding: 5% 10%;
+    font-size: 120%;
+    border-radius: 30px;
+
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    box-shadow: 4px 2px 15px rgba(0,0,0, 0.2);
+}
+
+.btn:active {
+    background-color: #F08080;
+    color: white;
+}
+
+#nGame, #roll, #ok, #hold #rules {
+    margin-bottom: 1rem;
+}
+
+#roll, #ok {
+    margin-top: 1.5rem;
+}
+
+#nGame {
+    margin-top: -1.5rem;
+}
+
+#inScore {
+    margin-top: 3rem;
+    width: 90%;
+    margin-bottom: -0.5rem;
+    font-size: 1.1rem;
+    border-style: none;
+    text-align: center;
+}
+
+#inScore:focus {
+    outline: none;
+    border-bottom: lightgray solid 1px;
+}
+
+#sText-0, #sText-1 {
+    font-size: 2rem;
+}
+
+#sBox-0, #sBox-1 {
+    height: 20%;
+    width: 70%;
+    background-color: #B9B9B9;
+    color: white;
+    font-size: 500%;
+    margin-top: 10%;
+}
+
+#cText-0, #cText-1 {
+    font-size: 130%;
+    margin-top: 90%;
+}
+
+#cScore-0, #cScore-1 {
+    height: 30%;
+    width: 60%;
+    background-color: #F08080;
+    margin-top: 5%;
+    color: white;
+    font-size: 300%;
+    padding-top: 10%;
+}
+
+.active {
+    border-bottom: 2px solid;
+    color: #ca8585;
+    border-radius: 5px;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+

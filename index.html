@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" media="Screen and (max-width: 768px)" href="./mobile.css">
+    <title>Pig Game V1.1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="panelItems player" id="p1">
+            <div id="sText-0" class="active pl1">PLAYER 1</div>
+            <div id="sBox-0">0</div>
+            <div id="cText-0">CURRENT SCORE</div>
+            <div id="cScore-0">0</div>
+        </div>
+
+        <div class="panelItems" id="cPanel">
+            <button class="btn inEl" id="nGame"><i class="ion-ios-plus-outline"></i>  New Game</button>
+            <img src="./image/dice-6.png" alt="Dice" class="dice">
+            <button class="btn inEl" id="roll"><i class="ion-ios-loop"></i>  Roll the Dice</button>
+            <button class="btn inEl" id="hold"><i class="ion-ios-download-outline"></i>  Hold</button>
+            <input type="number" name="input-score" class="inEl" id="inScore" placeholder="Enter the final score">
+            <button class="btn inEl" id="ok">Ok</button>
+            <button class="btn inEl" id="rules">Rules</button>
+        </div>
+        
+        <div class="panelItems player" id="p2">
+            <div id="sText-1" class="pl2">PLAYER 2</div>
+            <div id="sBox-1">0</div>
+            <div id="cText-1">CURRENT SCORE</div>
+            <div id="cScore-1">0</div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
